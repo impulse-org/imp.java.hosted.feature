@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="common" basedir=".">
+    <import file="../org.eclipse.imp.update/buildCommon.xml"/>
+
+    <!-- Following assumes we're invoking the build from within some plugin project's top-level directory -->
+    <xmlproperty file="../org.eclipse.imp.java.hosted.feature/feature.xml" prefix="imp.java.hosted"/>
+
+    <echo message="Building for IMP Java-Hosted Language Support feature version ${imp.java.hosted.feature(version)}"/>
+
+    <property name="imp.java.hosted.version" value="${imp.java.hosted.feature(version)}"/>
+</project>
