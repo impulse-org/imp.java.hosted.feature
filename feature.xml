@@ -2,20 +2,17 @@
 <feature
       id="org.eclipse.imp.java.hosted"
       label="%featureName"
-      version="0.1.0"
-      provider-name="rfuhrer@watson.ibm.com"
-      plugin="org.eclipse.imp.java.hosted">
+      version="0.1.1"
+      provider-name="%providerName"
+      plugin="org.eclipse.imp.java.hosted"
+      image="eclipse_update_120.jpg">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="http://www.eclipse.org/imp">
+      %description
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
-   </copyright>
-
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license url="%licenseURL">
+      %license
    </license>
 
    <url>
@@ -23,8 +20,8 @@
    </url>
 
    <requires>
-      <import feature="org.eclipse.jdt" version="3.3.2.r33x_r20080129-7o7jE7_EDhYDiyVEnjb1pFd7ZGD7"/>
-      <import feature="org.eclipse.imp.runtime" version="0.1.99"/>
+      <import feature="org.eclipse.jdt" version="3.3.2" match="compatible"/>
+      <import feature="org.eclipse.imp.runtime" version="0.1.101" match="compatible"/>
    </requires>
 
    <plugin
@@ -38,21 +35,21 @@
          id="org.eclipse.imp.java.hosted"
          download-size="0"
          install-size="0"
-         version="0.1.1"
+         version="0.1.2"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.imp.smapi"
          download-size="0"
          install-size="0"
-         version="0.1.88"
+         version="0.1.89.2"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.imp.smapifier"
          download-size="0"
          install-size="0"
-         version="0.1.88"
+         version="0.1.89.2"
          unpack="false"/>
 
 </feature>
