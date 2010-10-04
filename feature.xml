@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.imp.java.hosted"
       label="%featureName"
-      version="0.1.3.qualifier"
+      version="0.2.1.qualifier"
       provider-name="%providerName"
       plugin="org.eclipse.imp.java.hosted"
       image="eclipse_update_120.jpg">
@@ -35,21 +35,21 @@
          id="org.eclipse.imp.java.hosted"
          download-size="0"
          install-size="0"
-         version="0.1.3.qualifier"
+         version="0.2.1.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.imp.smapi"
          download-size="0"
          install-size="0"
-         version="0.1.91.qualifier"
+         version="0.2.1.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.imp.smapifier"
          download-size="0"
          install-size="0"
-         version="0.1.90.qualifier"
+         version="0.2.1.qualifier"
          unpack="false"/>
 
 </feature>
